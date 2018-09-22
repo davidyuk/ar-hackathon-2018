@@ -12,3 +12,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.vacancy-ar {
+  width: 100%;
+}
+</style>

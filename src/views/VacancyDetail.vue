@@ -1,6 +1,6 @@
 <template>
   <div class="vacancy-detail">
-    {{ vacancy.name }}<br />
+    <h1>{{ vacancy.name }}</h1>
     <component
       :is="arComponent"
       :vacancy="vacancy"
@@ -33,3 +33,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.vacancy-detail {
+  h1 {
+    font-weight: lighter;
+    font-size: 25px;
+  }
+}
+</style>

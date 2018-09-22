@@ -15,3 +15,9 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.vacancy-ar-ios img {
+  width: 100%;
+}
+</style>
