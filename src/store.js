@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import preview1 from './assets/bananaMan.gif';
-import usdz1 from './assets/bananaMan.usdz';
+import preview1 from './assets/scene1.jpg';
+import usdz1 from './assets/scene1.usdz';
 import preview2 from './assets/carrotMen.gif';
 import usdz2 from './assets/carrotMen.usdz';
 import preview3 from './assets/gears.gif';
@@ -16,14 +16,14 @@ export default new Vuex.Store({
         id: '0',
         name: 'Инженер по организации эксплуатации и ремонту зданий и сооружений',
         preview: preview1,
-        usdz: usdz2,
+        usdz: usdz1,
         salary: 50000,
       },
       {
         id: '2',
         name: 'Продавец-консультант в салон сотовой связи',
         preview: preview2,
-        usdz: usdz1,
+        usdz: usdz2,
         salary: 20000,
       },
       {
